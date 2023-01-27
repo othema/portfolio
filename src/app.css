@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.avatar {
+		background-image: url("/src/img/me.jpg");
+		background-size: 150%;
+		background-position: 20% 17%;
+	}
+}
