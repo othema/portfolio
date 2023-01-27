@@ -19,9 +19,9 @@
 		<h2 class="font-bold text-2xl">Notable Projects</h2>
 
 		<ul class="mt-3">
-			<Project title="StockX" date="Mar 2021" />
-			<Project title="StockX" date="Mar 2021" />
-			<Project title="StockX" date="Mar 2021" />
+			<Project title="StockX" date="Mar 2021" color="bg-red-500"/>
+			<Project title="StockX" date="Mar 2021" color="bg-purple-500" />
+			<Project title="StockX" date="Mar 2021" color="bg-green-500" />
 		</ul>
 	</section>
 </div>
