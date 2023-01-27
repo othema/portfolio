@@ -20,6 +20,8 @@
 
 		<ul class="mt-3">
 			<Project title="StockX" date="Mar 2021" />
+			<Project title="StockX" date="Mar 2021" />
+			<Project title="StockX" date="Mar 2021" />
 		</ul>
 	</section>
 </div>

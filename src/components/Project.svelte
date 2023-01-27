@@ -5,7 +5,7 @@
 	export let image: string = "https://via.placeholder.com/80"
 </script>
 
-<article class="flex gap-4 bg-opacity-30 p-4 my-2 rounded-md hover:scale-105 transform ease-in-out duration-300 bg-purple-500">
+<article class="flex gap-4 bg-opacity-30 p-4 my-3 rounded-md hover:scale-105 transform ease-in-out duration-300 bg-purple-500">
 	<img class="rounded-md" src={image} alt="Project">
 	<div>
 		<h3 class="font-bold text-lg flex items-center">{title} <span class="font-normal text-sm ml-4">[{date}]</span></h3>
