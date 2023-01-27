@@ -2,7 +2,7 @@
 	export let title: string;
 	export let date: string;
 	export let description: string = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestiae unde quae quis quasi? Error!";
-	export let image: string = "https://via.placeholder.com/80"
+	export let image: string = "https://via.placeholder.com/70"
 	export let color: string = "white";
 </script>
 
@@ -10,6 +10,6 @@
 	<img class="rounded-md" src={image} alt="Project">
 	<div>
 		<h3 class="font-bold text-lg flex items-center">{title} <span class="font-normal text-sm ml-4">[{date}]</span></h3>
-		<p class="text-sm mt-1">{description}</p>
+		<p class="text-sm">{description}</p>
 	</div>
 </article>
