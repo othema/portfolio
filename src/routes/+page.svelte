@@ -1,3 +1,7 @@
+<script>
+	import Project from "../components/Project.svelte";
+
+</script>
 <nav>
 	djvgeorge.me
 </nav>
@@ -15,10 +19,7 @@
 		<h2 class="font-bold text-2xl">Notable Projects</h2>
 
 		<ul class="mt-3">
-			<article class="bg-opacity-30 p-4 my-2 rounded-md hover:scale-105 transform ease-in-out duration-300 bg-purple-500">
-				<h3 class="font-bold text-lg flex items-center">StockX <span class="font-normal text-sm ml-4">[Mar 2021]</span></h3>
-				<p class="text-sm mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestiae unde quae quis quasi? Error!</p>
-			</article>
+			<Project title="StockX" date="Mar 2021" />
 		</ul>
 	</section>
 </div>
