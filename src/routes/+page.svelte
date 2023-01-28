@@ -16,7 +16,7 @@
 
 <div class="max-w-3xl px-8 mx-auto overflow-x-hidden">
 	<section class="mt-40">
-		<div class="rounded-3xl w-32 h-32 avatar" />
+		<img class="rounded-3xl w-32 h-32 object-cover" src="/me.jpg" alt="Me" />
 		<h1 class="font-bold text-3xl flex items-baseline mt-4">
 			Daniel George
 
