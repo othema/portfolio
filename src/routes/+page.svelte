@@ -2,9 +2,6 @@
 	import Contact from "../components/Contact.svelte";
 	import Project from "../components/Project.svelte";
 
-	import abehub from "../img/abehub.png";
-	import stockx from "../img/stockx.png";
-
 	const GITHUB = "https://www.github.com/othema"
 	const MAIL = "mailto:djv.george@gmail.com"
 
@@ -45,8 +42,8 @@
 		<h2 class="font-bold text-2xl">Notable Projects</h2>
 
 		<ul class="mt-4">
-			<Project title="StockX" date="Jul 2022" color="bg-cyan-500" image={stockx} description="A web-app made to lookup stocks to see recent news, price history, company overviews and more." />
-			<Project title="Abehub" date="Feb 2022" color="bg-orange-500" image={abehub} description="A twitter clone designed to connect students at Woking High School. Funded by students through a GoFundMe."/>
+			<Project title="StockX" date="Jul 2022" color="bg-cyan-500" image="/stockx.png" description="A web-app made to lookup stocks to see recent news, price history, company overviews and more." />
+			<Project title="Abehub" date="Feb 2022" color="bg-orange-500" image="/abehub.png" description="A twitter clone designed to connect students at Woking High School. Funded by students through a GoFundMe."/>
 			<Project title="TermYT" date="Mar 2021" color="bg-yellow-400" description="A command-line interface to play music from youtube in a clean and simple way." />
 		</ul>
 	</section>
