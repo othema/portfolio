@@ -9,14 +9,14 @@
 </script>
 <nav class="z-10 h-20 flex items-center p-4 w-screen fixed backdrop-blur-lg bg-black bg-opacity-50 xl:bg-opacity-0 xl:backdrop-filter-none">
 	<span class="flex items-center gap-5 font-bold text-lg">
-		<div class="rounded-xl w-11 h-11 avatar" />
+		<img width={44} height={44} src="/me.webp" class="rounded-xl w-11 h-11 object-cover" alt="Me" />
 		<h1>djvgeorge.me</h1>
 	</span>
 </nav>
 
 <div class="max-w-3xl px-8 mx-auto overflow-x-hidden">
 	<section class="mt-40">
-		<img class="rounded-3xl w-32 h-32 object-cover" src="/me.jpg" alt="Me" />
+		<img width={128} height={128} class="rounded-3xl w-32 h-32 object-cover" src="/me.webp" alt="Me" />
 		<h1 class="font-bold text-3xl flex items-baseline mt-4">
 			Daniel George
 
@@ -42,8 +42,8 @@
 		<h2 class="font-bold text-2xl">Notable Projects</h2>
 
 		<ul class="mt-4">
-			<Project title="StockX" date="Jul 2022" color="bg-cyan-500" image="/stockx.png" description="A web-app made to lookup stocks to see recent news, price history, company overviews and more." />
-			<Project title="Abehub" date="Feb 2022" color="bg-orange-500" image="/abehub.png" description="A twitter clone designed to connect students at Woking High School. Funded by students through a GoFundMe."/>
+			<Project title="StockX" date="Jul 2022" color="bg-cyan-500" image="/stockx.webp" description="A web-app made to lookup stocks to see recent news, price history, company overviews and more." />
+			<Project title="Abehub" date="Feb 2022" color="bg-orange-500" image="/abehub.webp" description="A twitter clone designed to connect students at Woking High School. Funded by students through a GoFundMe."/>
 			<Project title="TermYT" date="Mar 2021" color="bg-yellow-400" description="A command-line interface to play music from youtube in a clean and simple way." />
 		</ul>
 	</section>
