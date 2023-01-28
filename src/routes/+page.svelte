@@ -78,7 +78,9 @@
 
 	<hr class="my-8 border-gray-400 dark:border-gray-500"/>
 
-	<footer class="flex justify-center mb-8">
-		© {year} Daniel George |&nbsp;<a class="hover:underline" target="_blank" rel="noreferrer" href="https://www.github.com/othema/portfolio">Built with Svelte and TailwindCSS</a>
+	<footer class="flex justify-center mb-8 flex-col items-center sm:flex-row">
+		© {year} Daniel George
+		<span class="hidden sm:inline-block">&nbsp;|&nbsp;</span>
+		<a class="hover:underline" target="_blank" rel="noreferrer" href="https://www.github.com/othema/portfolio">Built with Svelte and TailwindCSS</a>
 	</footer>
 </div>
