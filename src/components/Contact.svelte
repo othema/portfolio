@@ -1,7 +1,7 @@
 <script lang="ts">
 	export let color: string = "bg-white";
 	export let title: string;
-	export let url: string | null;
+	export let url: string = "#";
 </script>
 
 <li>
